@@ -575,11 +575,16 @@ Usage: #example
 * item[=].item[=].repeats = false
 * item[=].item[=].linkId = "antecedentesEmbarazo"
 * item[=].item[=].text = "Historia obstétrica o de embarazo"
-
+* item[=].item[=].enableBehavior = #any
 ///////////////////// Enable When
-* item[=].item[=].enableWhen.question = "embarazadaMomentoVacuna"
-* item[=].item[=].enableWhen.operator = #=
-* item[=].item[=].enableWhen.answerBoolean = true
+* item[=].item[=].enableWhen[0].question = "embarazadaMomentoVacuna"
+* item[=].item[=].enableWhen[=].operator = #=
+* item[=].item[=].enableWhen[=].answerBoolean = true
+
+* item[=].item[=].enableWhen[+].question = "embarazadaMomentoESAVI"
+* item[=].item[=].enableWhen[=].operator = #=
+* item[=].item[=].enableWhen[=].answerBoolean = true
+
 
 
 /////////////////////

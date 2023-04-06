@@ -84,7 +84,7 @@ Description: "Evento Adverso en otro sistema según Snomed, ATC y CIE-10"
 * include codes from system SCT
 * include codes from system ATC
 * include codes from system http://hl7.org/fhir/sid/icd-10
-
+/*
 ValueSet: SustanciaActivaVS
 Id: SustanciaActivaVS
 Title: "Sustancia Activa Medicamento"
@@ -99,7 +99,7 @@ Description: "Codificación Estandarizda de Sustancia Activa de Medicamento seg�
 * include codes from system SCT
 * include codes from system ATC
 * include codes from system http://hl7.org/fhir/sid/icd-10
-
+*/
 ValueSet: MedicamentoGenericoVS
 Id: MedicamentoGenericoVS
 Title: "Nombre Genérico de Medicamentos"
@@ -353,7 +353,7 @@ Description:  "Códigos respuestas simples Verdadero/Falso"
 * ^jurisdiction = http://unstats.un.org/unsd/methods/m49/m49.htm#419 "Latin America and the Caribbean"
 * #1 "Verdadero"
 * #2 "Falso"
-
+/*
 ValueSet: GrupoEtnicoVS
 Id: GrupoEtnicoVS
 Title: "Grupos Étnicos"
@@ -386,6 +386,7 @@ Description:  "Códigos de Grupos Étnicos"
 * #5 "Amerindio"
 * #6 "Zambo"
 * #0 "Otro"
+*/
 
 ValueSet: CodigoMedicamentoVS
 Id: CodigoMedicamentoVS
@@ -477,7 +478,7 @@ Description: "Modos de Confirmacion de Infección por COVID-19"
 * #4 "Por aislamiento viral" 
 * #5 "Otra"
 
-
+/*
 ValueSet: EventoAdversoVacunaVS
 Id: EventoAdversoVacunaVS
 Title: "Eventos Adversos"
@@ -517,7 +518,7 @@ Description:  "Códigos de Posibles Eventos Adversos a Vacuna"
 * #13 "Síndrome de shock tóxico"
 * #14 "Sepsis"
 * #0 "Otro" 
-
+*/
 
 
 ValueSet: ClasificacionDesenlaceVS
@@ -570,7 +571,7 @@ Description:  "Tipo de Investigación Generada tras Reporte de ESAVI"
 * ^jurisdiction = http://unstats.un.org/unsd/methods/m49/m49.htm#419 "Latin America and the Caribbean"
 * #1 "Concisa"
 * #2 "Completa"
-
+/*
 ValueSet: SeccionesNotificacionVS
 Id: SeccionesNotificacionVS
 Title: "Secciones Notificación EDAVI"
@@ -606,7 +607,7 @@ Description: "Conjunto de Valores para las Secciones de la Notificación"
 * #s_GravedadEventoAdverso
 * #s_Desenlace
 * #s_Conclusiones
-
+*/
 ValueSet: ComplicacionEmbarazoVS
 Id: ComplicacionEmbarazoVS
 Title: "Complicaciones Embarazo"
